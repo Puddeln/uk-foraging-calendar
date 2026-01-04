@@ -52,7 +52,7 @@ END:VEVENT`;
 }
 
 // creates a set of all possible tags from plants.json
-export function createTagArray(plants) {
+export function createTagSet(plants) {
   const tagSet = new Set();
 
   for (const plant of plants) {

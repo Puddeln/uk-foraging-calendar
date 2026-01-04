@@ -40,7 +40,22 @@ a {
   margin: 0 auto;
   padding: 24px;
 }
-
+.header {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.h1 {
+  font-size: 28px;
+  margin: 0;
+}
+.subtitle {
+  margin: 6px 0 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
 .card {
   background: linear-gradient(
     180deg,
@@ -52,7 +67,17 @@ a {
   padding: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 }
-
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+@media (min-width: 900px) {
+  .grid {
+    grid-template-columns: 360px 1fr;
+  }
+}
 .section-title {
   font-size: 14px;
   letter-spacing: 0.08em;
@@ -60,7 +85,31 @@ a {
   color: var(--muted);
   margin: 0 0 10px;
 }
-
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.03);
+  cursor: pointer;
+  user-select: none;
+}
+.pill input {
+  accent-color: var(--accent);
+}
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .btn {
   border: 1px solid var(--border);
   background: rgba(125, 211, 252, 0.16);
@@ -78,4 +127,32 @@ a {
   font-size: 12px;
   color: var(--muted);
   line-height: 1.4;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow: hidden;
+  border-radius: 12px;
+}
+.table th,
+.table td {
+  border-bottom: 1px solid var(--border);
+  padding: 10px 10px;
+  vertical-align: top;
+}
+.table th {
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+}
+.kbd {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  border: 1px solid var(--border);
+  background: rgba(0, 0, 0, 0.25);
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-size: 12px;
 }
