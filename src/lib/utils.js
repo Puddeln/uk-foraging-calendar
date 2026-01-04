@@ -50,3 +50,18 @@ DESCRIPTION:${description}
 END:VEVENT`;
   return vevent;
 }
+
+// creates a set of all possible tags from plants.json
+export function createTagArray(plants) {
+  const tagSet = new Set();
+
+  for (const plant of plants) {
+    if (!plant.tags) continue;
+
+    for (const tag of plant.tags) {
+      tagSet.add(tag);
+    }
+  }
+
+  return Array.from(tagSet).sort();
+}
