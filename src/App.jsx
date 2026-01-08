@@ -154,18 +154,35 @@ METHOD:PUBLISH
             <p className="section-title">
               Preview ({filteredPlants.length} items)
             </p>
-          </div>
-        </div>
+            <table className="table">
+              <thead>
+                <tr>
+                  <th>Plant Name</th>
+                  <th>Latin</th>
+                  <th>Season Start MM-DD</th>
+                </tr>
+              </thead>
 
-        <div className="grid" style={{ marginTop: 16 }}>
-          <div className="card">
-            <p className="section-title">Debug: filtered plants (JSON)</p>
-            <pre>{JSON.stringify(filteredPlants, null, 2)}</pre>
-          </div>
+              <tbody>
+                {filteredPlants.slice(0, 11).map((plant) => (
+                  <tr key={plant.id}>
+                    <td>{plant.name}</td>
+                    <td>
+                      <em>{plant.latin}</em>
+                    </td>
+                    <td>{plant.season?.start}</td>
+                  </tr>
+                ))}
 
-          <div className="card">
-            <p className="section-title">Debug: generated ICS</p>
-            <pre>{testCalendar}</pre>
+                {filteredPlants.length === 0 && (
+                  <tr>
+                    <td colSpan={3} className="small">
+                      No plants match your filters
+                    </td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
