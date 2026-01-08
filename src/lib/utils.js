@@ -24,12 +24,20 @@ export function dtStampNowUTC() {
 }
 
 // generates vevent for some plant data
-export function veventMaker(plant, year) {
+export function veventMaker(plant, year, density = "block") {
   const uid = uidFromPlantId(plant.id, year);
   const dtStamp = dtStampNowUTC();
   const dtStart = mmddDateToYYYYMMDD(plant.season.start);
-  const dtEnd = mmddDateToYYYYMMDD(plant.season.end);
 
+  // set end date depending on density selection
+  let dtEndLine = "";
+
+  if (density === "block") {
+    const dtEnd = mmddDateToYYYYMMDD(plant.season.end, year);
+    dtEndLine = `DTEND;VALUE=DATE:${dtEnd}`;
+  }
+
+  // obtain and compose descriptive parts from plants.json
   const descriptionParts = [];
   if (plant.notes) descriptionParts.push(plant.notes);
   if (plant.latin) descriptionParts.push(`Latin: ${plant.latin}`);
@@ -40,15 +48,14 @@ export function veventMaker(plant, year) {
   );
 
   const description = descriptionParts.join("\\n\\n");
-  const vevent = `BEGIN:VEVENT
-UID:${uid}
-DTSTAMP:${dtStamp}
-DTSTART;VALUE=DATE:${dtStart}
-DTEND;VALUE=DATE:${dtEnd}
-SUMMARY:${plant.name} (foraging window)
-DESCRIPTION:${description}
-END:VEVENT`;
-  return vevent;
+  return `BEGIN:VEVENT
+  UID:${uid}
+  DTSTAMP:${dtStamp}
+  DTSTART;VALUE=DATE:${dtStart}
+  ${dtEndLine}
+  SUMMARY:${plant.name} (foraging window)
+  DESCRIPTION:${description}
+  END:VEVENT`;
 }
 
 // creates a set of all possible tags from plants.json

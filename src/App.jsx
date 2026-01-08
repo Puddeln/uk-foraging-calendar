@@ -11,6 +11,7 @@ export default function App() {
 
   const [selectedTags, setSelectedTags] = useState(new Set(["leaves"]));
   const [beginnerOnly, setBeginnerOnly] = useState(false);
+  const [density, setDensity] = useState("block");
 
   const toggleTag = (tag) => {
     setSelectedTags((prev) => {
@@ -43,7 +44,7 @@ METHOD:PUBLISH
 `;
 
   for (const plant of filteredPlants) {
-    testCalendar += "\n" + veventMaker(plant, year) + "\n";
+    testCalendar += "\n" + veventMaker(plant, year, density) + "\n";
   }
 
   testCalendar += "\nEND:VCALENDAR";
@@ -123,28 +124,35 @@ METHOD:PUBLISH
 
                 <span>Beginner-friendly only</span>
               </label>
-
-              <label className="pill">
-                <input type="checkbox" />
-                <span>Include notes & warnings</span>
-              </label>
             </div>
 
-            <div className="card" style={{ marginTop: 12 }}>
+            <div className="card" style={{ marginTop: 20 }}>
               <p className="section-title">Event density</p>
               <div className="row">
                 <label className="pill">
-                  <input type="radio" name="density" value="block" />
+                  <input
+                    type="radio"
+                    name="density"
+                    value="block"
+                    checked={density === "block"}
+                    onChange={() => setDensity("block")}
+                  />{" "}
                   <span>Season block of dates</span>
                 </label>
                 <label className="pill">
-                  <input type="radio" name="density" />
+                  <input
+                    type="radio"
+                    name="density"
+                    value="start"
+                    checked={density === "start"}
+                    onChange={() => setDensity("start")}
+                  />{" "}
                   <span>Single date at season start</span>
                 </label>
               </div>
             </div>
 
-            <p className="small" style={{ marginTop: 12 }}>
+            <p className="small" style={{ marginTop: 55 }}>
               Safety: this is a seasonal guide, not an ID tool. Only eat wild
               foods if you’re <b>100% sure</b> of identification and legality.
             </p>
