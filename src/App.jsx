@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import plantsData from "./data/plants.json";
-import { createTagSet, veventMaker } from "./lib/utils.js";
+import { createTagArray, veventMaker } from "./lib/utils.js";
 
 export default function App() {
-  // create set of all tags
+  // create an array of all tags
 
-  const tagSet = createTagSet(plantsData);
+  const tagOptions = createTagArray(plantsData);
 
   // create state to track which tags and options are selected
 
@@ -34,8 +34,6 @@ export default function App() {
 
   // compose ics file according to filters
 
-  const year = 2025;
-
   let testCalendar = `BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//UK Foraging Calendar//EN
@@ -44,13 +42,13 @@ METHOD:PUBLISH
 `;
 
   for (const plant of filteredPlants) {
-    testCalendar += "\n" + veventMaker(plant, year, density) + "\n";
+    testCalendar += "\n" + veventMaker(plant, density) + "\n";
   }
 
   testCalendar += "\nEND:VCALENDAR";
   const icsForFile = testCalendar.replaceAll("\n", "\r\n");
-  // rendering the page
 
+  // rendering the page
   return (
     <>
       <div className="container">
@@ -100,18 +98,16 @@ METHOD:PUBLISH
           <div className="card">
             <p className="section-title">Filters</p>
             <div className="pills">
-              {Array.from(tagSet)
-                .sort()
-                .map((tag) => (
-                  <label className="pill" key={tag}>
-                    <input
-                      type="checkbox"
-                      checked={selectedTags.has(tag)}
-                      onChange={() => toggleTag(tag)}
-                    />
-                    <span>{tag}</span>
-                  </label>
-                ))}
+              {tagOptions.map((tag) => (
+                <label className="pill" key={tag}>
+                  <input
+                    type="checkbox"
+                    checked={selectedTags.has(tag)}
+                    onChange={() => toggleTag(tag)}
+                  />
+                  <span>{tag}</span>
+                </label>
+              ))}
             </div>
 
             <div className="row" style={{ marginTop: 12 }}>

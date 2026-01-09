@@ -1,14 +1,31 @@
 // converts a date in the format MMDD to YYYYMMDD format, inserting the current year
-export function mmddDateToYYYYMMDD(MMDD) {
-  const currentYear = new Date().getFullYear();
-  const formattedDate = `${currentYear}${MMDD.replace("-", "")}`;
-  return formattedDate;
+export function mmddDateToYYYYMMDD(MMDD, year) {
+  return `${year}${MMDD.replace("-", "")}`;
 }
 
 // generates a UID from a given plant ID
 export function uidFromPlantId(plantId, year) {
   const uids = `${plantId}-${year}@uk-foraging-calendar`;
   return uids;
+}
+
+// attribute the correct year to a given MMDD plant season date
+export function yearSetter(MMDD) {
+  // get the current date
+  const currentYear = new Date().getFullYear();
+  const currentMonth = new Date().getMonth();
+  const currentDay = new Date().getDate();
+
+  const plantMMDD = Number(MMDD.replace("-", ""));
+  const todayMMDD = (currentMonth + 1) * 100 + currentDay;
+
+  let correctYear = currentYear;
+
+  if (plantMMDD < todayMMDD) {
+    correctYear = currentYear + 1;
+  }
+
+  return correctYear;
 }
 
 // generates a current date / time stamp
@@ -24,16 +41,23 @@ export function dtStampNowUTC() {
 }
 
 // generates vevent for some plant data
-export function veventMaker(plant, year, density = "block") {
-  const uid = uidFromPlantId(plant.id, year);
+export function veventMaker(plant, density = "block") {
   const dtStamp = dtStampNowUTC();
-  const dtStart = mmddDateToYYYYMMDD(plant.season.start);
+
+  const startYear = yearSetter(plant.season.start);
+  const uid = uidFromPlantId(plant.id, startYear);
+
+  const dtStart = mmddDateToYYYYMMDD(plant.season.start, startYear);
 
   // set end date depending on density selection
   let dtEndLine = "";
 
   if (density === "block") {
-    const dtEnd = mmddDateToYYYYMMDD(plant.season.end, year);
+    const startMMDD = Number(plant.season.start.replace("-", ""));
+    const endMMDD = Number(plant.season.end.replace("-", ""));
+    const endYear = endMMDD < startMMDD ? startYear + 1 : startYear;
+
+    const dtEnd = mmddDateToYYYYMMDD(plant.season.end, endYear);
     dtEndLine = `DTEND;VALUE=DATE:${dtEnd}`;
   }
 
@@ -49,17 +73,17 @@ export function veventMaker(plant, year, density = "block") {
 
   const description = descriptionParts.join("\\n\\n");
   return `BEGIN:VEVENT
-  UID:${uid}
-  DTSTAMP:${dtStamp}
-  DTSTART;VALUE=DATE:${dtStart}
-  ${dtEndLine}
-  SUMMARY:${plant.name} (foraging window)
-  DESCRIPTION:${description}
-  END:VEVENT`;
+UID:${uid}
+DTSTAMP:${dtStamp}
+DTSTART;VALUE=DATE:${dtStart}
+${dtEndLine}
+SUMMARY:${plant.name} (foraging window)
+DESCRIPTION:${description}
+END:VEVENT`;
 }
 
-// creates a set of all possible tags from plants.json
-export function createTagSet(plants) {
+// creates an array of all possible tags from plants.json
+export function createTagArray(plants) {
   const tagSet = new Set();
 
   for (const plant of plants) {
