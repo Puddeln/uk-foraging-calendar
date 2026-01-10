@@ -3,6 +3,9 @@ export function mmddDateToYYYYMMDD(MMDD, year) {
   return `${year}${MMDD.replace("-", "")}`;
 }
 
+export function mmddToDDMMConverter(MMDD) {
+  return MMDD ? MMDD.split("-").reverse().join("/") : "";
+}
 // generates a UID from a given plant ID
 export function uidFromPlantId(plantId, year) {
   const uids = `${plantId}-${year}@uk-foraging-calendar`;
@@ -62,7 +65,12 @@ export function veventMaker(plant, density = "block") {
   }
 
   // obtain and compose descriptive parts from plants.json
+  const [endMonth, endDay] = plant.season.end.split("-");
+
   const descriptionParts = [];
+  if (density != "block")
+    descriptionParts.push(`Season end: ${endDay}/${endMonth}`);
+
   if (plant.notes) descriptionParts.push(plant.notes);
   if (plant.latin) descriptionParts.push(`Latin: ${plant.latin}`);
   if (plant.tags?.length)
