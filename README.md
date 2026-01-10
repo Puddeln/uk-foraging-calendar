@@ -2,7 +2,7 @@
 
 A simple static site that generates downloadable iCalendar (`.ics`) files for UK foraging seasons.
 
-**Live demo:** https://YOUR_GITHUB_USERNAME.github.io/uk-foraging-calendar/
+**Live demo:** https://puddeln.github.io/uk-foraging-calendar/
 
 - **Stack:** Vite + React (JavaScript)
 - **Hosting:** GitHub Pages (static)
