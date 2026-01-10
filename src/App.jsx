@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import plantsData from "./data/plants.json";
-import { createTagArray, veventMaker } from "./lib/utils.js";
+import {
+  createTagArray,
+  veventMaker,
+  mmddToDDMMConverter,
+} from "./lib/utils.js";
 
 export default function App() {
   // create an array of all tags
@@ -163,7 +167,7 @@ METHOD:PUBLISH
                 <tr>
                   <th>Plant Name</th>
                   <th>Latin</th>
-                  <th>Season Start MM-DD</th>
+                  <th>Season Start</th>
                 </tr>
               </thead>
 
@@ -174,7 +178,7 @@ METHOD:PUBLISH
                     <td>
                       <em>{plant.latin}</em>
                     </td>
-                    <td>{plant.season?.start}</td>
+                    <td>{mmddToDDMMConverter(plant.season?.start)}</td>
                   </tr>
                 ))}
 
