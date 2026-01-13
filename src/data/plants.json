@@ -3,19 +3,13 @@
     "id": "wild-garlic",
     "name": "Wild garlic (ramsons)",
     "latin": "Allium ursinum",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": true,
     "season": {
       "start": "02-25",
       "end": "06-05"
     },
-    "habitats": [
-      "damp deciduous woodland",
-      "shaded hedgerows"
-    ],
+    "habitats": ["damp deciduous woodland", "shaded hedgerows"],
     "notes": "Harvest leaves before flowering for best texture/flavour. Beware poisonous lookalikes (e.g., lily-of-the-valley) — confirm by smell (garlic) and ID.",
     "sources": [
       "https://www.woodlandtrust.org.uk/blog/2018/03/foraging-in-march/",
@@ -26,20 +20,13 @@
     "id": "three-cornered-leek",
     "name": "Three-cornered leek",
     "latin": "Allium triquetrum",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": false,
     "season": {
       "start": "02-15",
       "end": "05-31"
     },
-    "habitats": [
-      "shaded verges",
-      "wood edges",
-      "urban parks"
-    ],
+    "habitats": ["shaded verges", "wood edges", "urban parks"],
     "notes": "Non-native but widespread in parts of the UK. Mild garlic/onion flavour; treat like wild garlic. Confirm ID carefully.",
     "sources": [
       "https://www.ft.com/content/6a21f136-2add-454f-a9d1-469c33319457"
@@ -49,20 +36,13 @@
     "id": "alexanders",
     "name": "Alexanders",
     "latin": "Smyrnium olusatrum",
-    "tags": [
-      "stems",
-      "leaves"
-    ],
+    "tags": ["stems", "leaves"],
     "beginner": false,
     "season": {
       "start": "02-20",
       "end": "05-31"
     },
-    "habitats": [
-      "coastal paths",
-      "waste ground",
-      "hedgerows"
-    ],
+    "habitats": ["coastal paths", "waste ground", "hedgerows"],
     "notes": "Young stems/shoots in spring. Has lookalikes in the carrot family — only eat if you can identify confidently.",
     "sources": [
       "https://www.ft.com/content/6a21f136-2add-454f-a9d1-469c33319457"
@@ -72,42 +52,27 @@
     "id": "nettles-young-leaves",
     "name": "Stinging nettle (young leaves)",
     "latin": "Urtica dioica",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": true,
     "season": {
       "start": "03-01",
       "end": "05-31"
     },
-    "habitats": [
-      "hedgerows",
-      "wood edges",
-      "waste ground",
-      "gardens"
-    ],
+    "habitats": ["hedgerows", "wood edges", "waste ground", "gardens"],
     "notes": "Pick the top 4–6 leaves while young; older leaves can be tougher. Use gloves. Great for soup, pesto, tea.",
-    "sources": [
-      "https://www.rhs.org.uk/plants/18618/urtica-dioica/details"
-    ]
+    "sources": ["https://www.rhs.org.uk/plants/18618/urtica-dioica/details"]
   },
   {
     "id": "dandelion-leaves",
     "name": "Dandelion leaves",
     "latin": "Taraxacum officinale",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": true,
     "season": {
       "start": "03-01",
       "end": "05-15"
     },
-    "habitats": [
-      "lawns",
-      "meadows",
-      "verges"
-    ],
+    "habitats": ["lawns", "meadows", "verges"],
     "notes": "Young leaves are less bitter. Avoid polluted areas and dog-walking hotspots.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -117,20 +82,13 @@
     "id": "chickweed",
     "name": "Chickweed",
     "latin": "Stellaria media",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": true,
     "season": {
       "start": "02-01",
       "end": "06-30"
     },
-    "habitats": [
-      "gardens",
-      "allotments",
-      "waste ground"
-    ],
+    "habitats": ["gardens", "allotments", "waste ground"],
     "notes": "Tender salad green. Often available in mild winters too.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -140,20 +98,13 @@
     "id": "sorrel",
     "name": "Common sorrel",
     "latin": "Rumex acetosa",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": true,
     "season": {
       "start": "03-15",
       "end": "06-30"
     },
-    "habitats": [
-      "meadows",
-      "grassland",
-      "field edges"
-    ],
+    "habitats": ["meadows", "grassland", "field edges"],
     "notes": "Lemony leaves; use in moderation (oxalates).",
     "sources": [
       "https://www.wildfoodie.co.uk/post/wild-food-seasonal-calendar-what-is-in-season-now"
@@ -163,19 +114,13 @@
     "id": "cow-parsley",
     "name": "Cow parsley (young leaves)",
     "latin": "Anthriscus sylvestris",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": false,
     "season": {
       "start": "03-20",
       "end": "05-20"
     },
-    "habitats": [
-      "hedgerows",
-      "verges"
-    ],
+    "habitats": ["hedgerows", "verges"],
     "notes": "Carrot family has dangerous lookalikes (hemlock). Do not eat unless you can confidently distinguish it.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -185,19 +130,13 @@
     "id": "wild-strawberries",
     "name": "Wild strawberries",
     "latin": "Fragaria vesca",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "06-10",
       "end": "08-15"
     },
-    "habitats": [
-      "woodland edges",
-      "banks",
-      "sunny clearings"
-    ],
+    "habitats": ["woodland edges", "banks", "sunny clearings"],
     "notes": "Small but intensely flavoured. Pick gently; leave plenty for wildlife.",
     "sources": [
       "https://www.nationalgeographic.com/travel/article/year-round-foraging-calendar-uk"
@@ -207,19 +146,13 @@
     "id": "elderflower",
     "name": "Elderflower",
     "latin": "Sambucus nigra",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": true,
     "season": {
       "start": "05-25",
       "end": "08-10"
     },
-    "habitats": [
-      "hedgerows",
-      "wood edges",
-      "urban scrub"
-    ],
+    "habitats": ["hedgerows", "wood edges", "urban scrub"],
     "notes": "Best in June when flowers are fresh. Use for cordial, fritters, champagne-style drinks.",
     "sources": [
       "https://www.countryfile.com/how-to/elderflower-guide-where-to-find-it-how-to-identify-and-recipe-ideas",
@@ -230,19 +163,13 @@
     "id": "lime-blossom",
     "name": "Lime (linden) blossom",
     "latin": "Tilia spp.",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": false,
     "season": {
       "start": "06-10",
       "end": "07-20"
     },
-    "habitats": [
-      "parks",
-      "avenues",
-      "woodland edges"
-    ],
+    "habitats": ["parks", "avenues", "woodland edges"],
     "notes": "Fragrant flowers for tea. Avoid collecting from busy roads due to pollution.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -252,20 +179,13 @@
     "id": "borage",
     "name": "Borage (leaves & flowers)",
     "latin": "Borago officinalis",
-    "tags": [
-      "flowers",
-      "leaves"
-    ],
+    "tags": ["flowers", "leaves"],
     "beginner": true,
     "season": {
       "start": "05-15",
       "end": "09-30"
     },
-    "habitats": [
-      "gardens",
-      "field margins",
-      "disturbed ground"
-    ],
+    "habitats": ["gardens", "field margins", "disturbed ground"],
     "notes": "Cucumber-like flavour. Use flowers as garnish; young leaves in salads. Often self-seeds.",
     "sources": [
       "https://www.ft.com/content/6a21f136-2add-454f-a9d1-469c33319457"
@@ -275,19 +195,13 @@
     "id": "wild-raspberries",
     "name": "Wild raspberries",
     "latin": "Rubus idaeus",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "06-25",
       "end": "08-25"
     },
-    "habitats": [
-      "woodland clearings",
-      "banks",
-      "scrub"
-    ],
+    "habitats": ["woodland clearings", "banks", "scrub"],
     "notes": "Pick ripe fruit; watch for brambles and ticks in long grass.",
     "sources": [
       "https://ribbletrust.org.uk/7-fruits-to-forage-this-autumn-equinox/"
@@ -297,19 +211,13 @@
     "id": "blackberries",
     "name": "Blackberries (brambles)",
     "latin": "Rubus fruticosus agg.",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "07-20",
       "end": "10-10"
     },
-    "habitats": [
-      "hedgerows",
-      "scrub",
-      "woodland edges"
-    ],
+    "habitats": ["hedgerows", "scrub", "woodland edges"],
     "notes": "Peak varies by region/weather. Avoid roadside pollution; leave some for wildlife.",
     "sources": [
       "https://www.woodlandtrust.org.uk/blog/2024/09/foraging-in-september/"
@@ -319,19 +227,13 @@
     "id": "rowan-berries",
     "name": "Rowan berries",
     "latin": "Sorbus aucuparia",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "08-01",
       "end": "09-30"
     },
-    "habitats": [
-      "upland woods",
-      "parks",
-      "roadsides"
-    ],
+    "habitats": ["upland woods", "parks", "roadsides"],
     "notes": "Typically cooked (raw berries can be very bitter). Great for jellies.",
     "sources": [
       "https://www.woodlandtrust.org.uk/blog/2017/08/foraging-in-august/"
@@ -341,19 +243,13 @@
     "id": "crab-apples",
     "name": "Crab apples",
     "latin": "Malus sylvestris",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "08-15",
       "end": "10-31"
     },
-    "habitats": [
-      "hedgerows",
-      "woodland edges",
-      "old orchards"
-    ],
+    "habitats": ["hedgerows", "woodland edges", "old orchards"],
     "notes": "Perfect for jelly. Only pick what you need; check for permission on private land.",
     "sources": [
       "https://www.woodlandtrust.org.uk/blog/2017/08/foraging-in-august/",
@@ -364,19 +260,13 @@
     "id": "elderberries",
     "name": "Elderberries",
     "latin": "Sambucus nigra",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "08-20",
       "end": "10-15"
     },
-    "habitats": [
-      "hedgerows",
-      "wood edges",
-      "urban scrub"
-    ],
+    "habitats": ["hedgerows", "wood edges", "urban scrub"],
     "notes": "Cook before eating (raw can upset stomach). Great for syrups and jams.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/june-foraging-guide-best-foods-to-find-and-recipe-ideas",
@@ -387,19 +277,13 @@
     "id": "rosehips",
     "name": "Rosehips",
     "latin": "Rosa canina (dog rose) and others",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "09-01",
       "end": "11-30"
     },
-    "habitats": [
-      "hedgerows",
-      "scrub",
-      "field edges"
-    ],
+    "habitats": ["hedgerows", "scrub", "field edges"],
     "notes": "Use for syrups, teas, jellies. Beware irritating hairs inside; strain well.",
     "sources": [
       "https://ribbletrust.org.uk/7-fruits-to-forage-this-autumn-equinox/"
@@ -409,18 +293,13 @@
     "id": "hawthorn-haws",
     "name": "Hawthorn berries (haws)",
     "latin": "Crataegus monogyna",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "10-01",
       "end": "11-30"
     },
-    "habitats": [
-      "hedgerows",
-      "wood edges"
-    ],
+    "habitats": ["hedgerows", "wood edges"],
     "notes": "Traditionally used for ketchups/jellies. Leave plenty for birds; hawthorn is valuable wildlife food.",
     "sources": [
       "https://www.chilterns.org.uk/news/foraging-the-fruits-of-the-chilterns/"
@@ -430,19 +309,13 @@
     "id": "sloes",
     "name": "Sloes",
     "latin": "Prunus spinosa (blackthorn)",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "09-01",
       "end": "12-15"
     },
-    "habitats": [
-      "hedgerows",
-      "scrub",
-      "field edges"
-    ],
+    "habitats": ["hedgerows", "scrub", "field edges"],
     "notes": "Often picked after first frost (or freeze at home) for sloe gin/jelly.",
     "sources": [
       "https://www.woodlandtrust.org.uk/blog/2025/10/foraging-in-october/",
@@ -453,18 +326,13 @@
     "id": "damsons",
     "name": "Damsons (wild plums)",
     "latin": "Prunus domestica subsp. insititia",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "08-25",
       "end": "10-05"
     },
-    "habitats": [
-      "hedgerows",
-      "old orchards"
-    ],
+    "habitats": ["hedgerows", "old orchards"],
     "notes": "Great for jams and gin. Only pick where you have access/permission.",
     "sources": [
       "https://www.chilterns.org.uk/news/foraging-the-fruits-of-the-chilterns/"
@@ -474,18 +342,13 @@
     "id": "hazelnuts",
     "name": "Hazelnuts",
     "latin": "Corylus avellana",
-    "tags": [
-      "nuts"
-    ],
+    "tags": ["nuts"],
     "beginner": true,
     "season": {
       "start": "08-20",
       "end": "10-15"
     },
-    "habitats": [
-      "woodland",
-      "hedgerows"
-    ],
+    "habitats": ["woodland", "hedgerows"],
     "notes": "Pick when nuts are full and brown; many will be taken by wildlife quickly.",
     "sources": [
       "https://www.woodlandtrust.org.uk/blog/2017/08/foraging-in-august/"
@@ -495,19 +358,13 @@
     "id": "sweet-chestnuts",
     "name": "Sweet chestnuts",
     "latin": "Castanea sativa",
-    "tags": [
-      "nuts"
-    ],
+    "tags": ["nuts"],
     "beginner": true,
     "season": {
       "start": "10-01",
       "end": "11-30"
     },
-    "habitats": [
-      "parks",
-      "woodland",
-      "avenues"
-    ],
+    "habitats": ["parks", "woodland", "avenues"],
     "notes": "Collect fallen nuts; beware confusing with horse chestnut (conkers) which are not edible.",
     "sources": [
       "https://totallywilduk.co.uk/2025/04/23/foraging-throughout-the-year-our-top-5-species-for-each-month/"
@@ -517,18 +374,13 @@
     "id": "beech-nuts",
     "name": "Beechnuts (beech mast)",
     "latin": "Fagus sylvatica",
-    "tags": [
-      "nuts"
-    ],
+    "tags": ["nuts"],
     "beginner": false,
     "season": {
       "start": "09-20",
       "end": "11-15"
     },
-    "habitats": [
-      "beech woodland",
-      "parks"
-    ],
+    "habitats": ["beech woodland", "parks"],
     "notes": "Edible in small quantities; high tannins. Roast/soak if using more than a few.",
     "sources": [
       "https://www.nationalgeographic.com/travel/article/year-round-foraging-calendar-uk"
@@ -538,18 +390,13 @@
     "id": "acorns",
     "name": "Acorns (processed)",
     "latin": "Quercus robur / Q. petraea",
-    "tags": [
-      "nuts"
-    ],
+    "tags": ["nuts"],
     "beginner": false,
     "season": {
       "start": "09-15",
       "end": "11-15"
     },
-    "habitats": [
-      "oak woodland",
-      "parks"
-    ],
+    "habitats": ["oak woodland", "parks"],
     "notes": "Require processing (leaching tannins) before eating. Do not eat raw.",
     "sources": [
       "https://totallywilduk.co.uk/2025/04/23/foraging-throughout-the-year-our-top-5-species-for-each-month/"
@@ -559,18 +406,13 @@
     "id": "field-mushrooms",
     "name": "Field mushroom (advanced)",
     "latin": "Agaricus campestris",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "08-15",
       "end": "10-31"
     },
-    "habitats": [
-      "meadows",
-      "pastures"
-    ],
+    "habitats": ["meadows", "pastures"],
     "notes": "Mushroom ID can be dangerous—many toxic lookalikes. Only eat fungi if you are trained and confident.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -580,17 +422,13 @@
     "id": "chanterelles",
     "name": "Chanterelle (advanced)",
     "latin": "Cantharellus cibarius",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "08-01",
       "end": "11-15"
     },
-    "habitats": [
-      "woodland"
-    ],
+    "habitats": ["woodland"],
     "notes": "Only forage with confident ID; avoid overharvesting sensitive sites.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -600,18 +438,13 @@
     "id": "giant-puffball",
     "name": "Giant puffball (advanced)",
     "latin": "Calvatia gigantea",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "08-01",
       "end": "10-15"
     },
-    "habitats": [
-      "meadows",
-      "pastures"
-    ],
+    "habitats": ["meadows", "pastures"],
     "notes": "Only eat when pure white inside. Mushroom ID risks apply.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -621,20 +454,13 @@
     "id": "sea-beet",
     "name": "Sea beet",
     "latin": "Beta vulgaris subsp. maritima",
-    "tags": [
-      "leaves",
-      "coastal"
-    ],
+    "tags": ["leaves", "coastal"],
     "beginner": false,
     "season": {
       "start": "04-01",
       "end": "10-31"
     },
-    "habitats": [
-      "shingle",
-      "coastal cliffs",
-      "saltmarsh edges"
-    ],
+    "habitats": ["shingle", "coastal cliffs", "saltmarsh edges"],
     "notes": "Ancestor of beetroot/chard. Harvest young leaves; avoid polluted shores.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -644,17 +470,13 @@
     "id": "samphire",
     "name": "Marsh samphire",
     "latin": "Salicornia europaea",
-    "tags": [
-      "coastal"
-    ],
+    "tags": ["coastal"],
     "beginner": false,
     "season": {
       "start": "06-15",
       "end": "08-31"
     },
-    "habitats": [
-      "saltmarsh"
-    ],
+    "habitats": ["saltmarsh"],
     "notes": "Often in protected sites—check access rules; harvest lightly. Usually blanched/steamed.",
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
@@ -664,19 +486,13 @@
     "id": "sea-aster",
     "name": "Sea aster",
     "latin": "Tripolium pannonicum",
-    "tags": [
-      "coastal",
-      "leaves"
-    ],
+    "tags": ["coastal", "leaves"],
     "beginner": false,
     "season": {
       "start": "05-15",
       "end": "09-30"
     },
-    "habitats": [
-      "saltmarsh",
-      "mudflats"
-    ],
+    "habitats": ["saltmarsh", "mudflats"],
     "notes": "Sometimes called 'sea spinach'. Ensure you can access sites legally and safely.",
     "sources": [
       "https://theoutdoorguide.co.uk/blogs/tog-blog/foraging-june-2025-elderflowers/"
@@ -686,9 +502,7 @@
     "id": "wild-garlic-flowers",
     "name": "Wild garlic flowers",
     "latin": "Allium ursinum",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": true,
     "season": {
       "start": "04-20",
@@ -704,10 +518,7 @@
     "id": "wild-chives",
     "name": "Wild chives",
     "latin": "Allium schoenoprasum",
-    "tags": [
-      "leaves",
-      "flowers"
-    ],
+    "tags": ["leaves", "flowers"],
     "beginner": false,
     "season": {
       "start": "05-01",
@@ -723,9 +534,7 @@
     "id": "ground-elder",
     "name": "Ground elder (young leaves)",
     "latin": "Aegopodium podagraria",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "03-20",
@@ -741,9 +550,7 @@
     "id": "jack-by-the-hedge",
     "name": "Jack-by-the-hedge (garlic mustard)",
     "latin": "Alliaria petiolata",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "03-20",
@@ -759,9 +566,7 @@
     "id": "ramsons-bulbs",
     "name": "Wild garlic bulbs (not recommended)",
     "latin": "Allium ursinum",
-    "tags": [
-      "roots"
-    ],
+    "tags": ["roots"],
     "beginner": false,
     "season": {
       "start": "03-01",
@@ -777,9 +582,7 @@
     "id": "wild-sorrel-wood",
     "name": "Wood sorrel",
     "latin": "Oxalis acetosella",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "03-15",
@@ -795,10 +598,7 @@
     "id": "meadowsweet",
     "name": "Meadowsweet flowers",
     "latin": "Filipendula ulmaria",
-    "tags": [
-      "flowers",
-      "herb"
-    ],
+    "tags": ["flowers", "herb"],
     "beginner": false,
     "season": {
       "start": "06-15",
@@ -814,9 +614,7 @@
     "id": "blackthorn-blossom",
     "name": "Blackthorn blossom (infusions)",
     "latin": "Prunus spinosa",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": false,
     "season": {
       "start": "03-01",
@@ -832,9 +630,7 @@
     "id": "hawthorn-leaves",
     "name": "Hawthorn young leaves ('bread and cheese')",
     "latin": "Crataegus monogyna",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -850,9 +646,7 @@
     "id": "wild-plums",
     "name": "Wild plums",
     "latin": "Prunus domestica (wilding)",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "08-15",
@@ -868,9 +662,7 @@
     "id": "wild-cherries",
     "name": "Wild cherries",
     "latin": "Prunus avium",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "06-15",
@@ -886,9 +678,7 @@
     "id": "bilberries",
     "name": "Bilberries (blaeberries)",
     "latin": "Vaccinium myrtillus",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "07-15",
@@ -904,9 +694,7 @@
     "id": "brambles-leaves",
     "name": "Bramble leaves (tea)",
     "latin": "Rubus fruticosus agg.",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": true,
     "season": {
       "start": "04-01",
@@ -922,9 +710,7 @@
     "id": "wild-rose-petals",
     "name": "Wild rose petals",
     "latin": "Rosa spp.",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": false,
     "season": {
       "start": "05-20",
@@ -940,10 +726,7 @@
     "id": "wild-mint",
     "name": "Wild mint",
     "latin": "Mentha spp.",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": true,
     "season": {
       "start": "06-01",
@@ -959,10 +742,7 @@
     "id": "wild-thyme",
     "name": "Wild thyme",
     "latin": "Thymus polytrichus",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": false,
     "season": {
       "start": "06-01",
@@ -978,9 +758,7 @@
     "id": "woodland-mushroom-porcini",
     "name": "Porcini/cep (advanced)",
     "latin": "Boletus edulis",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "08-01",
@@ -996,9 +774,7 @@
     "id": "blackberries-late",
     "name": "Blackberries (late / northern)",
     "latin": "Rubus fruticosus agg.",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "08-15",
@@ -1014,9 +790,7 @@
     "id": "apples-wildings",
     "name": "Wilding apples",
     "latin": "Malus domestica (wildings)",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "09-01",
@@ -1032,9 +806,7 @@
     "id": "pear-wildings",
     "name": "Wilding pears",
     "latin": "Pyrus communis (wildings)",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "09-01",
@@ -1050,9 +822,7 @@
     "id": "walnuts-green",
     "name": "Green walnuts (pickling)",
     "latin": "Juglans regia",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "06-10",
@@ -1068,9 +838,7 @@
     "id": "hops-shoots",
     "name": "Hop shoots (young)",
     "latin": "Humulus lupulus",
-    "tags": [
-      "stems"
-    ],
+    "tags": ["stems"],
     "beginner": false,
     "season": {
       "start": "03-15",
@@ -1086,9 +854,7 @@
     "id": "broom-flowers",
     "name": "Broom flowers (garnish, sparingly)",
     "latin": "Cytisus scoparius",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": false,
     "season": {
       "start": "05-01",
@@ -1104,9 +870,7 @@
     "id": "ramsons-seeds",
     "name": "Wild garlic seeds",
     "latin": "Allium ursinum",
-    "tags": [
-      "seeds"
-    ],
+    "tags": ["seeds"],
     "beginner": false,
     "season": {
       "start": "06-01",
@@ -1122,9 +886,7 @@
     "id": "pine-needles",
     "name": "Pine needles (tea)",
     "latin": "Pinus spp.",
-    "tags": [
-      "herb"
-    ],
+    "tags": ["herb"],
     "beginner": false,
     "season": {
       "start": "11-01",
@@ -1140,10 +902,7 @@
     "id": "garlic-mustard",
     "name": "Garlic mustard (jack-by-the-hedge)",
     "latin": "Alliaria petiolata",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": false,
     "season": {
       "start": "03-15",
@@ -1159,10 +918,7 @@
     "id": "ground-ivy",
     "name": "Ground ivy",
     "latin": "Glechoma hederacea",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": false,
     "season": {
       "start": "03-15",
@@ -1178,10 +934,7 @@
     "id": "cleavers",
     "name": "Cleavers (goosegrass)",
     "latin": "Galium aparine",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": true,
     "season": {
       "start": "03-20",
@@ -1197,9 +950,7 @@
     "id": "primrose-flowers",
     "name": "Primrose flowers",
     "latin": "Primula vulgaris",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": false,
     "season": {
       "start": "03-01",
@@ -1215,9 +966,7 @@
     "id": "violets",
     "name": "Wild violets (flowers)",
     "latin": "Viola odorata / Viola spp.",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": false,
     "season": {
       "start": "03-01",
@@ -1233,9 +982,7 @@
     "id": "gorse-flowers",
     "name": "Gorse flowers",
     "latin": "Ulex europaeus",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": false,
     "season": {
       "start": "02-01",
@@ -1251,9 +998,7 @@
     "id": "hawthorn-blossom",
     "name": "Hawthorn blossom",
     "latin": "Crataegus monogyna",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": false,
     "season": {
       "start": "05-01",
@@ -1269,10 +1014,7 @@
     "id": "mugwort",
     "name": "Mugwort",
     "latin": "Artemisia vulgaris",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": false,
     "season": {
       "start": "06-01",
@@ -1288,11 +1030,7 @@
     "id": "yarrow",
     "name": "Yarrow",
     "latin": "Achillea millefolium",
-    "tags": [
-      "leaves",
-      "flowers",
-      "herb"
-    ],
+    "tags": ["leaves", "flowers", "herb"],
     "beginner": false,
     "season": {
       "start": "06-01",
@@ -1308,9 +1046,7 @@
     "id": "plantain-ribwort",
     "name": "Ribwort plantain",
     "latin": "Plantago lanceolata",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": true,
     "season": {
       "start": "04-01",
@@ -1326,9 +1062,7 @@
     "id": "plantain-broadleaf",
     "name": "Broadleaf plantain",
     "latin": "Plantago major",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": true,
     "season": {
       "start": "04-01",
@@ -1344,11 +1078,7 @@
     "id": "wild-marjoram",
     "name": "Wild marjoram (oregano)",
     "latin": "Origanum vulgare",
-    "tags": [
-      "leaves",
-      "flowers",
-      "herb"
-    ],
+    "tags": ["leaves", "flowers", "herb"],
     "beginner": false,
     "season": {
       "start": "07-01",
@@ -1364,9 +1094,7 @@
     "id": "elderleaves-young",
     "name": "Elder leaves (young)",
     "latin": "Sambucus nigra",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -1382,11 +1110,7 @@
     "id": "sweet-cicely",
     "name": "Sweet cicely (advanced)",
     "latin": "Myrrhis odorata",
-    "tags": [
-      "leaves",
-      "seeds",
-      "herb"
-    ],
+    "tags": ["leaves", "seeds", "herb"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -1402,10 +1126,7 @@
     "id": "wild-carrot-seeds",
     "name": "Wild carrot seeds (advanced)",
     "latin": "Daucus carota",
-    "tags": [
-      "seeds",
-      "herb"
-    ],
+    "tags": ["seeds", "herb"],
     "beginner": false,
     "season": {
       "start": "08-01",
@@ -1421,12 +1142,7 @@
     "id": "fennel-wild",
     "name": "Wild fennel (coastal)",
     "latin": "Foeniculum vulgare",
-    "tags": [
-      "leaves",
-      "seeds",
-      "herb",
-      "coastal"
-    ],
+    "tags": ["leaves", "seeds", "herb", "coastal"],
     "beginner": false,
     "season": {
       "start": "06-01",
@@ -1442,10 +1158,7 @@
     "id": "sea-kale",
     "name": "Sea kale (young shoots)",
     "latin": "Crambe maritima",
-    "tags": [
-      "stems",
-      "coastal"
-    ],
+    "tags": ["stems", "coastal"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -1461,11 +1174,7 @@
     "id": "sea-radish",
     "name": "Sea radish",
     "latin": "Raphanus raphanistrum subsp. maritimus",
-    "tags": [
-      "leaves",
-      "flowers",
-      "coastal"
-    ],
+    "tags": ["leaves", "flowers", "coastal"],
     "beginner": false,
     "season": {
       "start": "05-01",
@@ -1481,10 +1190,7 @@
     "id": "sea-purslane",
     "name": "Sea purslane",
     "latin": "Halimione portulacoides",
-    "tags": [
-      "leaves",
-      "coastal"
-    ],
+    "tags": ["leaves", "coastal"],
     "beginner": false,
     "season": {
       "start": "05-01",
@@ -1500,10 +1206,7 @@
     "id": "sea-lettuce",
     "name": "Sea lettuce (seaweed)",
     "latin": "Ulva lactuca",
-    "tags": [
-      "seaweed",
-      "coastal"
-    ],
+    "tags": ["seaweed", "coastal"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -1519,10 +1222,7 @@
     "id": "dulse",
     "name": "Dulse (seaweed)",
     "latin": "Palmaria palmata",
-    "tags": [
-      "seaweed",
-      "coastal"
-    ],
+    "tags": ["seaweed", "coastal"],
     "beginner": false,
     "season": {
       "start": "03-01",
@@ -1538,10 +1238,7 @@
     "id": "pepper-dulse",
     "name": "Pepper dulse (seaweed)",
     "latin": "Osmundea pinnatifida",
-    "tags": [
-      "seaweed",
-      "coastal"
-    ],
+    "tags": ["seaweed", "coastal"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -1557,10 +1254,7 @@
     "id": "bladderwrack",
     "name": "Bladderwrack (seaweed)",
     "latin": "Fucus vesiculosus",
-    "tags": [
-      "seaweed",
-      "coastal"
-    ],
+    "tags": ["seaweed", "coastal"],
     "beginner": false,
     "season": {
       "start": "01-01",
@@ -1576,10 +1270,7 @@
     "id": "kelp",
     "name": "Kelp (seaweed, various)",
     "latin": "Laminaria spp.",
-    "tags": [
-      "seaweed",
-      "coastal"
-    ],
+    "tags": ["seaweed", "coastal"],
     "beginner": false,
     "season": {
       "start": "01-01",
@@ -1595,9 +1286,7 @@
     "id": "wood-blewit",
     "name": "Wood blewit (advanced)",
     "latin": "Lepista nuda",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "10-01",
@@ -1613,9 +1302,7 @@
     "id": "hedgehog-mushroom",
     "name": "Hedgehog mushroom (advanced)",
     "latin": "Hydnum repandum",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "08-15",
@@ -1631,9 +1318,7 @@
     "id": "oyster-mushroom",
     "name": "Oyster mushroom (advanced)",
     "latin": "Pleurotus ostreatus",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "10-01",
@@ -1649,9 +1334,7 @@
     "id": "wood-ear",
     "name": "Wood ear (advanced)",
     "latin": "Auricularia auricula-judae",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "01-01",
@@ -1667,9 +1350,7 @@
     "id": "jelly-ear",
     "name": "Jelly ear (advanced)",
     "latin": "Auricularia auricula-judae",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "01-01",
@@ -1685,9 +1366,7 @@
     "id": "morels",
     "name": "Morel (advanced)",
     "latin": "Morchella spp.",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -1703,9 +1382,7 @@
     "id": "st-georges-mushroom",
     "name": "St George's mushroom (advanced)",
     "latin": "Calocybe gambosa",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "04-15",
@@ -1721,9 +1398,7 @@
     "id": "winter-chanterelle",
     "name": "Winter chanterelle / yellowfoot (advanced)",
     "latin": "Craterellus tubaeformis",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "10-01",
@@ -1739,9 +1414,7 @@
     "id": "hedgerow-hawthorn-leaves",
     "name": "Hawthorn young leaves",
     "latin": "Crataegus monogyna",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -1757,9 +1430,7 @@
     "id": "dock-leaves",
     "name": "Dock (young leaves)",
     "latin": "Rumex obtusifolius / crispus",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "03-15",
@@ -1775,9 +1446,7 @@
     "id": "garlic-ramsons-seedpods",
     "name": "Wild garlic seed pods (green)",
     "latin": "Allium ursinum",
-    "tags": [
-      "seeds"
-    ],
+    "tags": ["seeds"],
     "beginner": false,
     "season": {
       "start": "05-15",
@@ -1793,9 +1462,7 @@
     "id": "linden-young-leaves",
     "name": "Lime (linden) young leaves",
     "latin": "Tilia spp.",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "04-15",
@@ -1811,9 +1478,7 @@
     "id": "birch-sap",
     "name": "Birch sap",
     "latin": "Betula spp.",
-    "tags": [
-      "sap"
-    ],
+    "tags": ["sap"],
     "beginner": false,
     "season": {
       "start": "03-01",
@@ -1829,9 +1494,7 @@
     "id": "birch-leaves",
     "name": "Birch leaves (young)",
     "latin": "Betula spp.",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -1847,10 +1510,7 @@
     "id": "spruce-tips",
     "name": "Spruce tips",
     "latin": "Picea abies and other spruces",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": false,
     "season": {
       "start": "04-15",
@@ -1866,9 +1526,7 @@
     "id": "beech-leaves",
     "name": "Beech leaves (young)",
     "latin": "Fagus sylvatica",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "04-15",
@@ -1884,10 +1542,7 @@
     "id": "sweet-woodruff",
     "name": "Sweet woodruff (advanced)",
     "latin": "Galium odoratum",
-    "tags": [
-      "leaves",
-      "herb"
-    ],
+    "tags": ["leaves", "herb"],
     "beginner": false,
     "season": {
       "start": "04-15",
@@ -1903,9 +1558,7 @@
     "id": "meadow-vetchling",
     "name": "Meadow vetchling (young shoots, advanced)",
     "latin": "Lathyrus pratensis",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "04-15",
@@ -1921,9 +1574,7 @@
     "id": "wild-asparagus",
     "name": "Wild asparagus (advanced)",
     "latin": "Asparagus officinalis (naturalised)",
-    "tags": [
-      "stems"
-    ],
+    "tags": ["stems"],
     "beginner": false,
     "season": {
       "start": "04-15",
@@ -1939,9 +1590,7 @@
     "id": "wild-horseradish",
     "name": "Wild horseradish (root, advanced)",
     "latin": "Armoracia rusticana",
-    "tags": [
-      "roots"
-    ],
+    "tags": ["roots"],
     "beginner": false,
     "season": {
       "start": "10-01",
@@ -1957,9 +1606,7 @@
     "id": "burdock-root",
     "name": "Burdock root (advanced)",
     "latin": "Arctium lappa / minus",
-    "tags": [
-      "roots"
-    ],
+    "tags": ["roots"],
     "beginner": false,
     "season": {
       "start": "10-01",
@@ -1975,9 +1622,7 @@
     "id": "blackberries-early",
     "name": "Blackberries (early)",
     "latin": "Rubus fruticosus agg.",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": true,
     "season": {
       "start": "07-01",
@@ -1993,9 +1638,7 @@
     "id": "serviceberries",
     "name": "Serviceberries (Juneberry)",
     "latin": "Amelanchier spp.",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "06-15",
@@ -2011,9 +1654,7 @@
     "id": "mulberries",
     "name": "Mulberries",
     "latin": "Morus nigra / alba",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "07-01",
@@ -2029,9 +1670,7 @@
     "id": "gorse-seeds",
     "name": "Gorse (seeds, advanced)",
     "latin": "Ulex europaeus",
-    "tags": [
-      "seeds"
-    ],
+    "tags": ["seeds"],
     "beginner": false,
     "season": {
       "start": "07-01",
@@ -2047,9 +1686,7 @@
     "id": "sweet-briar-hips",
     "name": "Sweet briar rosehips",
     "latin": "Rosa rubiginosa",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "09-01",
@@ -2065,9 +1702,7 @@
     "id": "sorbus-whitebeam",
     "name": "Whitebeam berries (advanced)",
     "latin": "Sorbus aria",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "09-01",
@@ -2083,9 +1718,7 @@
     "id": "medlars",
     "name": "Medlars (bletted)",
     "latin": "Mespilus germanica",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "10-15",
@@ -2101,10 +1734,7 @@
     "id": "sea-buckthorn",
     "name": "Sea buckthorn berries",
     "latin": "Hippophae rhamnoides",
-    "tags": [
-      "fruit",
-      "coastal"
-    ],
+    "tags": ["fruit", "coastal"],
     "beginner": false,
     "season": {
       "start": "09-01",
@@ -2120,9 +1750,7 @@
     "id": "sandy-mushrooms",
     "name": "Shaggy inkcap (advanced)",
     "latin": "Coprinus comatus",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "08-15",
@@ -2138,9 +1766,7 @@
     "id": "glen-hedgehog-berries",
     "name": "Guelder rose berries (advanced)",
     "latin": "Viburnum opulus",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "09-15",
@@ -2156,9 +1782,7 @@
     "id": "pine-nuts-cones",
     "name": "Pine nuts (not typical UK)",
     "latin": "Pinus pinea",
-    "tags": [
-      "nuts"
-    ],
+    "tags": ["nuts"],
     "beginner": false,
     "season": {
       "start": "09-01",
@@ -2174,9 +1798,7 @@
     "id": "wild-saffron-milkcap",
     "name": "Saffron milk cap (advanced)",
     "latin": "Lactarius deliciosus",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "09-01",
@@ -2192,9 +1814,7 @@
     "id": "field-blewit",
     "name": "Field blewit (advanced)",
     "latin": "Lepista saeva",
-    "tags": [
-      "fungi"
-    ],
+    "tags": ["fungi"],
     "beginner": false,
     "season": {
       "start": "10-01",
@@ -2210,9 +1830,7 @@
     "id": "pignuts",
     "name": "Pignut tubers (advanced)",
     "latin": "Conopodium majus",
-    "tags": [
-      "roots"
-    ],
+    "tags": ["roots"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -2228,9 +1846,7 @@
     "id": "watercress",
     "name": "Watercress (wild, advanced)",
     "latin": "Nasturtium officinale",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "03-01",
@@ -2246,9 +1862,7 @@
     "id": "fat-hen",
     "name": "Fat hen",
     "latin": "Chenopodium album",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "05-01",
@@ -2264,9 +1878,7 @@
     "id": "lambs-lettuce-wild",
     "name": "Corn salad (lamb's lettuce)",
     "latin": "Valerianella locusta",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "02-01",
@@ -2282,9 +1894,7 @@
     "id": "purslane",
     "name": "Common purslane",
     "latin": "Portulaca oleracea",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "06-01",
@@ -2300,9 +1910,7 @@
     "id": "blackcurrant-wildings",
     "name": "Wild blackcurrants (where present)",
     "latin": "Ribes nigrum",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "07-01",
@@ -2318,9 +1926,7 @@
     "id": "redcurrant-wildings",
     "name": "Wild redcurrants (where present)",
     "latin": "Ribes rubrum",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "06-20",
@@ -2336,9 +1942,7 @@
     "id": "gooseberries-wildings",
     "name": "Gooseberries (wildings)",
     "latin": "Ribes uva-crispa",
-    "tags": [
-      "fruit"
-    ],
+    "tags": ["fruit"],
     "beginner": false,
     "season": {
       "start": "06-20",
@@ -2354,9 +1958,7 @@
     "id": "salsify",
     "name": "Common salsify (root, advanced)",
     "latin": "Tragopogon porrifolius",
-    "tags": [
-      "roots"
-    ],
+    "tags": ["roots"],
     "beginner": false,
     "season": {
       "start": "10-01",
@@ -2372,10 +1974,7 @@
     "id": "wild-parsnip",
     "name": "Wild parsnip (advanced)",
     "latin": "Pastinaca sativa",
-    "tags": [
-      "roots",
-      "leaves"
-    ],
+    "tags": ["roots", "leaves"],
     "beginner": false,
     "season": {
       "start": "09-01",
@@ -2391,9 +1990,7 @@
     "id": "bracken-fiddleheads",
     "name": "Bracken fiddleheads (not recommended)",
     "latin": "Pteridium aquilinum",
-    "tags": [
-      "stems"
-    ],
+    "tags": ["stems"],
     "beginner": false,
     "season": {
       "start": "04-15",
@@ -2409,9 +2006,7 @@
     "id": "cattail",
     "name": "Reedmace (cattail) shoots (advanced)",
     "latin": "Typha latifolia",
-    "tags": [
-      "stems"
-    ],
+    "tags": ["stems"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -2427,9 +2022,7 @@
     "id": "cattail-pollen",
     "name": "Reedmace pollen (advanced)",
     "latin": "Typha latifolia",
-    "tags": [
-      "seeds"
-    ],
+    "tags": ["seeds"],
     "beginner": false,
     "season": {
       "start": "06-15",
@@ -2445,9 +2038,7 @@
     "id": "elderflower-early",
     "name": "Elderflower (early)",
     "latin": "Sambucus nigra",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": true,
     "season": {
       "start": "05-15",
@@ -2463,9 +2054,7 @@
     "id": "elderflower-late",
     "name": "Elderflower (late)",
     "latin": "Sambucus nigra",
-    "tags": [
-      "flowers"
-    ],
+    "tags": ["flowers"],
     "beginner": true,
     "season": {
       "start": "06-15",
@@ -2481,9 +2070,7 @@
     "id": "wild-sloe-leaves",
     "name": "Blackthorn young leaves (advanced)",
     "latin": "Prunus spinosa",
-    "tags": [
-      "leaves"
-    ],
+    "tags": ["leaves"],
     "beginner": false,
     "season": {
       "start": "04-01",
@@ -2494,5 +2081,17 @@
     "sources": [
       "https://www.countryfile.com/how-to/foraging/monthly-foraging-guide-whats-in-season-where-to-find-it-and-how-to-forage-responsibly"
     ]
+  },
+  {
+    "id": "chicken-of-the-woods",
+    "name": "Chicken of the Woods",
+    "latin": "Laetiporus sulphureus",
+    "tags": ["fungi"],
+    "beginner": false,
+    "season": {
+      "start": "06-01",
+      "end": "10-15"
+    },
+    "notes": "Large bright orange shelf fungus on hardwoods, especially oak. Only harvest young, tender brackets. Avoid specimens growing on yew, laburnum, or eucalyptus. Always cook thoroughly; some people experience stomach upset."
   }
 ]
